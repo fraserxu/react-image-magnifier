@@ -68,7 +68,7 @@ var Magnifier = React.createClass({
                 <div style={{
                     width: props.size,
                     height: props.size,
-                    backgroundImage: `url(${props.zoomImage.src})`,
+                    backgroundImage: `url("${props.zoomImage.src}")`,
                     backgroundRepeat: 'no-repeat',
                     backgroundPosition: `${bgX}px ${bgY}px`,
                     borderRadius: props.size
